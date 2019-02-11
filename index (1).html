@@ -1,0 +1,129 @@
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<head>
+	<title> Rosa Christen's Portfolio</title>
+	<style type = "text/css">
+	body {
+		background-color:#ffffff;
+		background-image: linear-gradient(#ffffff,#375b77);
+		margin-left: 20%;
+		margin-right:20%;
+		padding: 10px 10px 10px 10px;
+		font-family: sans-serif;
+		text-align: center;
+		.left{
+	text-align: left;
+	}
+		}	
+		a{
+		color: #f2f5f9;
+		text-decoration: none;
+		padding-bottom: 8;
+		padding-top: 8;
+		position:relative;
+		top: 8px;
+		font-family: times new roman;
+		font-size: 20px;
+		}
+		a:link {
+		color: #f2f5f9;
+	}
+
+		a:visited {
+		color: #f2f5f9;
+	}
+
+		a:hover {
+		color: #6aa8fc;
+	}
+
+		a:active {
+		color:#435e82;
+	}
+		
+		.grid {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+		grid-template-rows: repeat(24, 50px);
+		grid-gap: 2em;
+	}
+		header{
+		color: #f2f5f9;
+		background-color:#414449;
+			grid-column: 1 / 5;
+			grid-row: 1/3;
+		}
+		article{
+			grid-column-start: 2;
+			grid-column-end: 5;
+			grid-row-start: 4;
+			grid-row-end: 10;
+			border-style: solid; 
+			text-align: left; 
+			background-color: white;
+			position:relative;
+		}
+		aside{
+		color:#f2f5f9;
+		background-color:#414449;
+			grid-row: 4/5;
+			grid-column: 1;
+			position: relative;
+		}
+		.header1{
+		color: #f2f5f9;
+		background-color:#414449;
+			grid-row: 3/4;
+			grid-column: 1/5;
+		}
+		</style>
+	</head>
+	
+<body>
+<div class="grid">
+  <header style = "border-style: solid">
+   <h1> Computer Science Portfolio</h1>
+   <h3> Rosa Christen</h3>
+  </header>
+ 
+<aside style= "border-style: solid; position: relative; top: 48px">
+	<a id="article"><a href="#Bear Pong">Bear Pong</a></a>
+  </aside>
+  
+  <aside style = "border-style: solid">
+	<a id="article"><a href="#Polar Platformer">Polar Platformer</a></a>
+  </aside>
+  
+ <aside style= "border-style: solid; position: relative; top: 96px">
+	<a id="article"><a href="#Fighting Fire with Fire!">Fighting Fire with Fire!</a></a>
+  </aside>
+  
+  <article>
+  <a name="Polar Platformer"></a>
+    <h3>&emsp;Polar Platformer</h3>
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/TooJYxBP-9s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style = "position: relative; left: 35px; border-style: solid"></iframe>
+	<h5 style= "margin-left: 2em; margin-right: 2em"> &emsp;I created this small Polar Bear platformer in 2017 for my Intro to Programming class. It was made using Gamemaker 1, and I drew the bear and ice sprites myself. It was the first real game I ever made.
+  </article>
+  
+	
+   <div class = "header1", style= "border-style: solid; position:relative; top: -34px">
+   
+	</div>
+	
+	<article style= "grid-column:1/4; grid-row: 11/17">
+	<a name="Bear Pong"></a>
+	<h3>&emsp;Bear Pong</h3>
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/equzA1dSOfQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style = "position: relative; left: 35px; border-style: solid"></iframe>
+	<h5 style= "margin-left: 2em; margin-right: 2em">This was a silly little game we made to learn gamemaker in the beginning of the intro to programming class. It is a two player game, with one paddle controlled by "w" and "s", and the other controlled by the arrow keys.</h5>
+	</article>
+	
+	<article style= "grid-row: 18/24">
+	<a name="Fighting Fire with Fire!"></a>
+	<h3>&emsp;Fighting Fire with Fire!</h3>
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/AulFOJNpA0M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style = "position: relative; left: 35px; border-style: solid"></iframe>
+	<h5 style= "margin-left: 2em; margin-right: 2em"> This was the final game project we made for Intro to Programming last year. It involved platforming sections and a pokemon-style, randomly generated boss battle. All sprites were drawn by me."</h5>
+	</article>
+  
+</div>
+</body>
+</html>
